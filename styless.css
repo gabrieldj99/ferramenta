@@ -36,3 +36,26 @@ div button{
     margin-top: 10px;
     cursor: pointer;
 }
+
+@media screen and (max-width:420px){
+   body{
+    background-color: red;
+
+   }
+   h1{
+    font-size:70px;
+   }
+
+   p{
+    width:200px;
+    height: 400px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:200px;
+    cursor: pointer;
+
+}
+
+}
