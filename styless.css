@@ -37,7 +37,7 @@ div button{
     cursor: pointer;
 }
 
-@media screen and (max-width:420px){
+@media screen and (max-width:450px){
    body{
     background-color: red;
 
