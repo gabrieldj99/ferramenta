@@ -39,6 +39,7 @@ div button{
 
 @media screen and (max-width:450px){
    body{
+    background: red;
     background-color: red;
 
    }
