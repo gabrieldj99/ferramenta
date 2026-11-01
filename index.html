@@ -1,29 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./styless.css">
+    <title>conversao</title>
+    <link rel="stylesheet" href="./conversao.css">
 </head>
-    <body>
-        <h1>CONTADOR</h1>
-
-        <P id="resultado">0</P>
-
-        <div>
-            <button id="adicionar">Adicionar</button>
-            <button id="remover">remover</button>
-        </div>
-        <div>
-            <button id="dobrosomar">+10</button>
-            <button id="dobrotirar">-10</button>
-        </div>
-         <div>
-            <button id="multiplicar">x5</button>
-            <button id="dividir">/2</button>
+<body>
+    <div class="conteudo-input">
+        <div class="campo">
+            <p>Produto</p>
+            <input  tabindex="1"  id="campo"></input>
+            <input  tabindex="3"  id="campo"></input>
+            <input  tabindex="5"  id="campo"></input>
+            <input  tabindex="7"  id="campo"></input>
+            <input  tabindex="9"  id="campo"></input>
+            <input  tabindex="11" id="campo"></input>
+            <input  tabindex="13" id="campo"></input>
         </div>
 
-        <script src="./contador.js"></script>
-    </body>
+        <div class="campo">
+            <p>Quantidade</p>
+            <input  tabindex="2"  class="quantidade">
+            <input  tabindex="4"  class="quantidade">
+            <input  tabindex="6"  class="quantidade">
+            <input  tabindex="8"  class="quantidade">
+            <input  tabindex="10" class="quantidade">
+            <input  tabindex="12" class="quantidade">
+            <input  tabindex="14" class="quantidade">
+        </div>
+        <div class="campo">
+            <p>Utilizado por kg</p>
+            <div class="mediakg"></div>
+            <div class="mediakg"></div>
+            <div class="mediakg"></div>
+            <div class="mediakg"></div>
+            <div class="mediakg"></div>
+            <div class="mediakg"></div>
+            <div class="mediakg"></div>
+        </div>
+    </div>
+    <div class="rendimento">
+        <p>Rendimento</p>
+        <input id="rendimento"></input>
+    </div>
+
+    <script src="./conversao.js"></script>
+</body>
 </html>
